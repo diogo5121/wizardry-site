@@ -1,0 +1,92 @@
+CASO O REACTJS NAO ABRA - $env:NODE_OPTIONS = "--openssl-legacy-provider"
+
+screen -ls
+screen -r apiVexa
+Ctrl + A, D
+
+Catão mercado pago -5031 4332 1540 6351 - 123 - 11/25
+
+06/01/2024
+
+/OK/ Ajeitar o cadastro e colocar a coluna RANK no banco de dados.
+/OK/ Lançar no banco de dados os anuncios com o UID e o Caminho da imagem e Data e hora que Lançado
+/OK/ Puxar no meus-anuncios os anuncios
+
+07/01/2024
+
+/OK/ mostrar os status Aprovado/Pendente/Não Aprovado nos meus anuncios
+/OK/ Correção de alguns bugs
+
+08/01/2024
+
+/OK/ Resolver erro de puxar o nome dos vendedores
+/OK/ Colocar um if na tela de meu anuncios para exibir um botão "fazer primeiro anuncio"
+/OK/ puxar na Tela Home os anuncios recentes
+/OK/ Criar opção de excluir anuncios e deletar a foto
+/OK/ UPAR A API NA VPS(URGENTE)
+
+09/01/2024
+/OK/Salvar os dados das compras no banco de dados
+/OK/ criar pagina do anuncio
+/ok/ Criar uma variavel global com o "vps" - com porta e ip separado para maior organização
+
+10/01/2024
+/OK/ Ajeitando layout
+/OK/ Criar numero maximo de anuncios por usuario
+/OK/ Aparecer no maximo 10 anuncios na pagina de anuncios 
+
+11/01/2024
+/OK/ mudar rank inivial para "Sem Rank"
+
+22/01/2024
+/OK/ Adcionar o horario na tabela de Vendas
+/OK/ Fazer edição de item
+/OK/fazer a pagination minhas vendas
+/OK/ imprimir 0 se não tiver venda nenhuma
+/OK/ fazer printar so compras aprovada
+
+23/01/2024
+/OK/ Terminar o chat (BACK-EN)
+
+24/01/2024
+/ok/ Terminar chat front end
+/ok/Criar toda estrategia que tem para liberação de saldo
+/ok/ Fazer os anuncios aparecer só se estiver com status aprovado
+
+minhas-vendas
+
+
+meus-anuncios
+// Confirmar o cancelamento do anuncio na tela de meus anuncios
+
+homepage
+
+// adicionar coluna de imagem das categorias
+// fazer paginas de subcategorias
+
+Assunto: Proposta de Parceria - Ganhos Exclusivos para o Seu Canal no YouTube!
+
+Olá privitalino ,
+
+Meu nome é Diogo Daniel, representando a Wizardry.
+
+Estamos lançando o nosso novo site, www.wizardry.com.br, e ficaríamos honrados em tê-lo como parceiro nesta jornada emocionante. Estamos cientes do seu incrível trabalho e do engajamento da sua audiência, e acreditamos que uma parceria entre nós pode ser mutuamente benéfica.
+
+Detalhes da Proposta de Parceria:
+Estamos oferecendo uma comissão de 50% sobre cada aquisição de rank realizada por usuários que forem indicados pelo seu canal. Isso significa que, sempre que seus seguidores utilizarem nosso site e realizarem compras de rank, você receberá uma generosa porcentagem do valor gasto por eles.
+
+Sobre a Wizardry:
+A Wizardry é uma empresa dedicada a oferecer produtos e serviços de alta qualidade. Nosso site é especializado em vendas de produtos digitais, proporcionando uma experiência única aos nossos usuários. Estamos comprometidos em garantir a satisfação de nossos clientes, e acreditamos que sua audiência pode se beneficiar bastante da parceria.
+
+Como Iniciar a Parceria:
+Se você estiver interessado em explorar essa oportunidade, ficaremos felizes em discutir mais detalhes e responder a quaisquer perguntas que possa ter. Basta responder a este e-mail ou entrar em contato através do 81 996382552 (Whatsapp ou telefone).
+
+Agradecemos pela sua consideração e estamos animados com a possibilidade de colaborar com você. Juntos, podemos alcançar grandes conquistas!
+
+Atenciosamente,
+
+Diogo Daniel
+Proprietário
+Wizardry
+contato@wizardry.com.br
+81 99638-2552

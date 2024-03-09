@@ -1,0 +1,57 @@
+cur.execute("""
+    CREATE TABLE IF NOT EXISTS users (
+        name VARCHAR(255),
+        username VARCHAR(255),
+        valor VARCHAR(20),
+        pix VARCHAR(255),
+        uid VARCHAR(255)
+    )
+""")
+
+CREATE TABLE Anuncios (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  imagem VARCHAR(255),
+  categoria VARCHAR(50),
+  subcategoria VARCHAR(50),
+  tipo_produto VARCHAR(50),
+  titulo VARCHAR(70),
+  descricao TEXT,
+  estoque INT,
+  tempo_entrega VARCHAR(100),
+  preco DECIMAL(10, 2),
+  uid VARCHAR(255),
+);
+
+CREATE TABLE Categorias (
+    CategoriaID INT PRIMARY KEY,
+    NomeCategoria VARCHAR(50) NOT NULL,
+    valor VARCHAR(50)
+);
+
+CREATE TABLE Subcategorias (
+    SubcategoriaID INT PRIMARY KEY,
+    NomeSubcategoria VARCHAR(50) NOT NULL,
+    CategoriaID INT,
+    valor VARCHAR(50),
+    FOREIGN KEY (CategoriaID) REFERENCES Categorias(CategoriaID)
+);
+
+CREATE TABLE TiposProduto (
+    TipoProdutoID INT PRIMARY KEY,
+    NomeTipoProduto VARCHAR(50) NOT NULL,
+    SubcategoriaID INT,
+    valor VARCHAR(50),
+    FOREIGN KEY (SubcategoriaID) REFERENCES Subcategorias(SubcategoriaID)
+);
+
+
+ id |   rank   | quantidade_anuncios | preco
+----+----------+---------------------+-------
+  1 | Sem Rank |                  10 |  0.00 -- 0
+  2 | Bronze   |                  20 |  5.90 -- 5
+  3 | Prata    |                  40 |  9.90 -- 40
+  4 | Ouro     |                  80 | 19.90 -- 320
+  5 | Diamante |                 160 | 29.90 -- 1.000
+  6 | Mestre   |                 320 | 45.90 -- 3.000
+  7 | Premium  |                 500 | 59.90 -- 6.000
+
